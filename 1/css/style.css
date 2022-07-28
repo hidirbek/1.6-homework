@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.list{
+    margin: 100px 0 0 60px;
+    box-shadow: 1px 1px 20px 1px gray;
+    display: inline-block;
+    width: 360px;
+    height: 490px;
+
+}
+.header{
+    margin: 10px 0 0 30px;
+    color: blue;
+    font-size: 30px;
+    width: 310px;
+}
+.item-list{
+    margin: 10px 0 0 30px;
+    color: grey;
+    width:325px ;
+    font-size: 20px;
+}
+li:nth-child(1){
+    list-style: none;
+}
+li:nth-child(2){
+    list-style: none;
+}
+.image{
+    margin:20px 0 0 30px ;
+    width: 120px;
+    height: 110px;
+}
+.list:hover{
+    box-shadow: 10px 10px 30px 10px gray;
+}
+.list:active{
+    box-shadow:  0 0 0 5px greenyellow ;
+
+}
+
+
+

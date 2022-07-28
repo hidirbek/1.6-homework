@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: auto;
+    width: 1440px;
+    height: 4199px;
+}
+a{
+    text-decoration: none;
+}
+.head{
+    width: 1440px;
+    height: 800px;
+    text-align: center;
+    width: 1440px;
+    background-image:url("../img/site-header.png");
+    background-repeat: no-repeat;
+    /* border: 3px solid black; */
+}
+.navbar{
+    width: 1440px;
+    height: 65px;
+    background-color: #fff;
+}
+.nav-list{
+    padding: 20px 50px 0 50px;
+    width: 1340px;
+    display: flex;
+    list-style: none;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-item{
+    width: 113px;
+    font-size: 10px;
+    margin: 5px 30px 28px 0 ;
+}
+.nav-logo{
+    width: 98px;
+    margin: 6px 175px 25px 151px;
+}
+.nav-btn{
+    height: 23px;
+    width: 64px;
+    color: #fff;
+    background-color: #000;
+    /* border: 1px solid #000000; */
+}
+.wellness{
+    text-align: center;
+    width: 1440px;
+}
+.wellness-head{
+    color: white;
+    margin: 215px 0 33px 342px;
+    width: 756px;
+}
+.wellness-para{
+    margin-left: 472px;
+    text-align: center;
+    width: 496px;
+    color: white;
+}
+.wellness-button{
+    margin: 60px 20px 0 0;
+    background: none;
+    color: white;
+    width: 215px;
+    border-color: #fff;
+}
+
+.supple-las{
+    /* border: 5px solid black; */
+    width: 1440px;
+    height: 500px;
+    display: flex ;
+    justify-content: space-between;
+    margin: 16px 0;
+}
+.supplement{
+    background-image: url("../img/laser.png");
+    width: 710px;
+    height: 500px;
+    align-content: flex-end;
+}
+/* .text{
+    width: 424px;
+    height: 160px;
+    border: 3px solid aqua;
+    margin: 0px 143px 30px 143px;
+} */
+.text-head{
+    text-align: center;
+    margin: 310px 0 13px 256px;
+    width: 198px;
+}
+.text-para{
+    text-align: center;
+    margin: 0 0 9px 249px  ;
+    width: 220px;
+}
+.disc-link{
+    color: #fff;
+    width: 92px;
+    margin: 25px 0 30px 250px;
+}
+.buy-link{
+    color: #fff;
+    width: 37px;
+    margin-left: 95px;
+}
+.laser{
+    background-image: url("../img/supplement.png");
+    width: 710px;
+    height: 500px;
+    /* display: inline-block; */
+}
+
+.quest{
+    margin: 16px 0;
+    width: 1440px;
+    height: 729px;
+    background: #000;
+    color: #fff;
+}
+.quest-head{
+    text-align: center;
+    width: 446px;
+    padding: 66px 0 32px 497px;
+}
+.quest-img{
+    width: 444px;
+    height: 366px;
+    margin: 0 498px;
+}
+.quest-para{
+    text-align: center;
+    width: 532px;
+    margin: 39px 0 83px 454px;
+
+
+}
+
+.innovation{
+    /* margin: 0; */
+    width: 1440px;
+    height: 729px;
+    background-image: url("../img/innovation.png");
+}
+.inno-text{
+    padding: 289px 0 288px 441px ;
+    width: 558px;
+}
+.inno-head{
+    text-align: center;
+    color: #fff;
+    /* padding-top: 289px; */
+}
+.inno-btn{
+    color: #fff;
+    background: none;
+    margin:28px 0 0 47px;
+    border-color: #fff;
+    width: 215px;
+    height: 36px;
+    /* border: none; */
+}
+.founder{
+    margin: 16px 0;
+    width: 1440px;
+    height: 430px;
+    background-image: url("../img/founder.png");
+
+}
+.founder-text{
+    width: 417px;
+    height: 158px;
+    padding-top: 136px;
+    margin: 0px 0px 0px 768px ;
+}
+.founder-head{
+    width: 287px;
+}
+.founder-para{
+    width: 349px;
+    margin:33px 0 12px 0;
+}
+.founder-link{
+    width: 107px;
+}
+
+footer{
+    width: 1440px;
+    height: 433px;
+    border: 3px solid black;
+    display: flex;
+
+}
+
+.foot-list{
+    list-style: none;
+}
